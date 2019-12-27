@@ -14,7 +14,9 @@
     & nav {
         display: flex;
         width: calc(311px - 34px);
-        height: 60px;
+
+        /* height: 60px; */
+        height: 2000px !important; /* footer border */
         padding: 17px 17px 0;
         justify-content: space-between;
         box-shadow: inset -1px 0 0 0 var(--shadow-color);
