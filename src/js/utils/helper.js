@@ -300,8 +300,9 @@ const helper = {
     },
 
     md5: (file) => {
+        const md = new MD5();
         return new Promise((resolve, reject) => {
-            MD5(file, (err, md5) => {
+            md.md5(file, (err, md5) => {
                 resolve(err ? false : md5);
             });
         });
