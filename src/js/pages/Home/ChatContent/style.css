@@ -543,6 +543,7 @@
 
     & .content {
         background: #7ebef8;
+        white-space: pre; /* show text & indent */
     }
 
     & p {
